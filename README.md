@@ -39,6 +39,7 @@ pip install simpy numpy matplotlib seaborn
 ```
 
 ### Project Structure
+```bash
 inventory-rl/
 ├── data/                   # Simulation output data
 ├── docs/                   # Presentation slides
@@ -48,14 +49,16 @@ inventory-rl/
 │   ├── Q_learning_agent.py        # Q-learning implementation
 │   └── simulation_model.py        # Inventory environment
 └── README.md
+```
 
 ### Running the Project
-# Find global optimal policy:
+
+### Find global optimal policy:
 ```bash
 python src/global_optimal_search.py
 ```
 
-Train and evaluate Q-learning agent:
+### Train and evaluate Q-learning agent:
 ```bash
 python src/main.py
 ```
